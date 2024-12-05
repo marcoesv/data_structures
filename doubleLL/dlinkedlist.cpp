@@ -1,0 +1,17 @@
+#include "dlinkedlist.h"
+
+int main() {
+    DoublyLinkedList list;
+    list.append(10);
+    list.append(20);
+    list.append(30);
+    list.append(40);
+
+    std::cout << "Display forward: ";
+    list.displayForward();
+
+    std::cout << "Display backward: ";
+    list.displayBackward();
+
+    return 0;
+}
