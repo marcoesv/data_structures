@@ -24,3 +24,5 @@
 ### Search
 - **Description**: Finding a node with a specific value in the linked list.
 - **Big O Notation**: O(n) in the worst case.
+
+Created by Marco Salinas
